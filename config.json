@@ -1,0 +1,65 @@
+{
+"display_mode":"timer",
+"background":{
+				"type":3,
+				"image":{
+						"file":"./background.jpg"
+						},
+				"gradient":
+						{
+							"from":
+									{
+										"R":0,
+										"G":0,
+										"B":0,
+										"A":255
+									},
+							"to":
+									{
+										"R":255,
+										"G":255,
+										"B":255,
+										"A":200
+									},
+							"type":1
+
+						}
+			},
+"text":
+			{
+			   "display":"Hállome en un lugar ignoto",
+			   "text_color":{
+								"R":136,
+								"G":139,
+								"B":144,
+								"A":255
+							},
+				"bg_color":{
+								"R":0,
+								"G":0,
+								"B":0,
+								"A":255
+							},
+				"font":{
+							"name":"Digit",
+							"size":12,
+							"bold":false
+						}
+				
+			},
+"clock":
+			{
+				"color":{
+					"R":136,
+					"G":139,
+					"B":144,
+					"A":255
+				},
+				"format":"%Y-%m-%d %H:%M:%S",
+				"font":{
+					"name":"Digit",
+					"size":12,
+					"bold":false
+				}
+			}
+}

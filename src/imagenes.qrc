@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/" >
+    <file alias="background" >../background.jpg</file>
+    <file alias="backgroundbmp" >../background.bmp</file>
+    <file alias="play" >../etc/imgs/play.png</file>
+    <file alias="reinit" >../etc/imgs/reinit.png</file>
+    <file alias="pause" >../etc/imgs/stop.png</file>
+  </qresource>
+</RCC>

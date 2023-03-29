@@ -1,0 +1,26 @@
+<?xml version=\"1.0\"?>
+<!--BACKGROUND type="1">../background.jpg</BACKGROUND-->
+<BACKGROUND type="2">./background.jpg</BACKGROUND>
+<!--BACKGROUND type="1">../images.jpg</BACKGROUND-->
+<EFFECTS>
+	<GRADIENT type="1">
+		<COLOR_ORIGEN R="0" G="0" B="0" A="0"/>
+		<COLOR_DESTINO R="255" G="255" B="255" A="200"/>
+	</GRADIENT>
+</EFFECTS>
+<TEXT R="136" G="139" B="144" A="255"> Hállome en un lugar ignoto </TEXT>
+<CLOCK R="136" G="139" B="144" A="255">
+	<!-- "%Y : year
+      	  %m : month
+		  %d : day
+		  %H : hour
+		  %M : minutes
+		  %S : seconds
+		  %a : Abbreviated weekday name
+		  %A : Full weekday name 
+		  %b : Abbreviated month name
+		  %B : Full month name...
+		  details : http://www.cplusplus.com/reference/ctime/strftime/
+		  example of format : "%Y-%m-%d %H:%M:%S" " -->
+	<!--FORMAT> %Y-%m-%d %H:%M:%S (#%H%M%S)</FORMAT-->
+</CLOCK>
